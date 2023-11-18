@@ -10,7 +10,7 @@ const Hero = () => {
   let random = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
   (() => {
-    let name = "Himanshu";
+    let name = "Kartik ";
     let iterations = 0;
     let interval = setInterval(() => {
       nameReference.current.innerText = nameReference.current.innerText
@@ -48,7 +48,7 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm{" "}
             <span className="text-[#915eff]" ref={nameReference}>
-              Himanshu
+              Kartik
             </span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
