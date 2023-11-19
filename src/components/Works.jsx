@@ -20,9 +20,7 @@ const ProjectCard = ({
     <div
       onClick={() =>
         website_link === ""
-          ? alert(
-              "Due to restrictions, this website is not available in public domain."
-            )
+          ? alert("Currently this website is not available in public domain.")
           : window.open(website_link, "_blank")
       }
       style={{ cursor: "pointer" }}
@@ -46,7 +44,7 @@ const ProjectCard = ({
               onClick={() =>
                 source_code_link === ""
                   ? alert(
-                      "Due to restrictions, the github repository is not available in public domain."
+                      "Currently the select projects source code is private."
                     )
                   : window.open(source_code_link, "_blank")
               }

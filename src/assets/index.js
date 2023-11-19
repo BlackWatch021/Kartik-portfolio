@@ -23,12 +23,9 @@ import threejs from "./tech/threejs.svg";
 
 import steadyApply from "./company/steadyApply.png";
 
-import amazon from "./projects/amazon.png";
-import blogSite from "./projects/blogSite.png";
-import blogSummarizer from "./projects/blogSummarizer.png";
-import disney from "./projects/disney.png";
-import tesla from "./projects/tesla.png";
-import NDEAR from "./projects/NDEAR.png";
+import crypto_app from "./projects/crypto_app.png";
+import netflixClone from "./projects/netflix_clone.png";
+import tictacktoe from "./projects/tictack.png";
 
 import link_github from "./contact links/github.svg";
 import link_dribble from "./contact links/dribble.svg";
@@ -58,12 +55,9 @@ export {
   typescript,
   threejs,
   steadyApply,
-  amazon,
-  blogSite,
-  blogSummarizer,
-  disney,
-  tesla,
-  NDEAR,
+  netflixClone,
+  tictacktoe,
+  crypto_app,
   link_github,
   link_dribble,
   link_linkedin,

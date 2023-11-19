@@ -13,13 +13,10 @@ import {
   mongodb,
   git,
   figma,
-  tesla,
   steadyApply,
-  amazon,
-  blogSite,
-  blogSummarizer,
-  disney,
-  NDEAR,
+  crypto_app,
+  netflixClone,
+  tictacktoe,
 } from "../assets";
 
 export const navLinks = [
@@ -35,10 +32,6 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
-  // {
-  //   id: "./resume/Himanshu_resume.pdf",
-  //   title: "Resume",
-  // },
 ];
 
 const services = [
@@ -85,10 +78,6 @@ const technologies = [
     name: "Redux Toolkit",
     icon: redux,
   },
-  // {
-  //   name: "Tailwind CSS",
-  //   icon: tailwind,
-  // },
   {
     name: "Node JS",
     icon: nodejs,
@@ -97,10 +86,6 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
   {
     name: "git",
     icon: git,
@@ -109,10 +94,6 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
 ];
 
 const experiences = [
@@ -211,8 +192,8 @@ const testimonials = [
 
 const projects = [
   {
-    name: "NDEAR Portal",
-    description: `Created this winning solution with my team "VI QR Coders" during the Smart India Hackathon 2022, problem statement was given by Ministry of Education, India to help teachers/faculty of schools. Due to certain restrictions, source code and website link is not availalbe in public domain`,
+    name: "Crypto App",
+    description: `Developed a React.js-based crypto app with Chakra UI, utilizing the Coingecko Crypto API to fetch comprehensive data on various cryptocurrencies and exchanges. Implemented interactive charts to analyze the performance of specific cryptocurrencies, providing valuable insights for users. Integrated direct links to exchange websites, enabling seamless exploration of the crypto market within the app.`,
     tags: [
       {
         name: "react",
@@ -239,55 +220,13 @@ const projects = [
         color: "cyan-text-gradient",
       },
     ],
-    image: NDEAR,
-    source_code_link: "",
+    image: crypto_app,
+    source_code_link: "https://github.com/kartik1767/crypto-app",
     website_link: "",
   },
   {
-    name: "QuickReads",
-    description:
-      "It's an AI based application, which can summarize long articles/blogs/texts in a very short period of time. You just have to place the link of the article/blog in the provided field and you will get the summary. To do so, I have utilized one of the API provided by GPT-4. ",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Styled Component",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: blogSummarizer,
-    source_code_link:
-      "https://github.com/BlackWatch021/Blog-summarizer-OpenAI-",
-    website_link: "https://blogsummarizer.netlify.app/",
-  },
-  {
-    name: "Blog Site",
-    description:
-      "Made this app so that I can organize all of my blogs in a single place. It has the feature of comments, so that readers can give their insights about the blogs but to do so they have to first login. Currently the project is underway as I will be putting my blogs in some time. TILL THEN DUMMY DATA HAS BEEN USED",
-    tags: [
-      {
-        name: "nextJs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "styled Component",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "Google Auth(firebase)",
-        color: "cyan-text-gradient",
-      },
-    ],
-    image: blogSite,
-    source_code_link: "https://github.com/BlackWatch021/Blog-site-nextJS",
-    website_link: "https://personalblognextjs.vercel.app/",
-  },
-  {
-    name: "Disney Clone",
-    description:
-      "Cloned the Disney+ streaming application. Included the User Authentication feature using Google Firebase. I have made the app fully responsive for all of the major devices.",
+    name: "Netflix Clone",
+    description: `- Developed a fully functional Netflix clone using React.js, replicating the main user interface and design of the popular streaming platform. Implemented seamless integration with the TMDB API to fetch and display a wide range of movies, documentaries, series, and other content available on Netflix. Utilized React components and state management to create a dynamic user experience, allowing users to browse and search for specific titles, view detailed information.`,
     tags: [
       {
         name: "react",
@@ -298,45 +237,30 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Styled Component",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "Redux",
+        name: "express",
         color: "pink-text-gradient",
       },
       {
-        name: "Google Auth(firebase)",
+        name: "node",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "OCR (for image recognition)",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "React native",
         color: "cyan-text-gradient",
       },
     ],
-    image: disney,
-    source_code_link: "https://github.com/BlackWatch021/Disney-clone",
-    website_link: "https://himanshu-disneyplus-clone.netlify.app/",
-  },
-
-  {
-    name: "Tesla Clone",
-    description:
-      "Cloned the TESLA electric's website. The whole application is fully responsive, so that user may get better experience across all devices.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Styled Component",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: tesla,
-    source_code_link: "https://github.com/BlackWatch021/tesla-clone",
-    website_link: "https://himanshu-tesla-clone.netlify.app/",
+    image: netflixClone,
+    source_code_link: "",
+    website_link: "https://netflix-clone-kartik.netlify.app/",
   },
   {
-    name: "Amazon Clone",
-    description:
-      "It's amazon's clone with included features like user authentication, product selection and production summary page. Redux is used here to improve state management for the application",
+    name: "Tic-Tac-Toe",
+    description: `I've made a tic-tac-toe (noughts and crosses) board, place markers on the board, assessed if either player has won, and utilize this to reproduce two essential procedures utilizing Python.
+    `,
     tags: [
       {
         name: "react",
@@ -347,21 +271,25 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Styled Component",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "Redux",
+        name: "express",
         color: "pink-text-gradient",
       },
       {
-        name: "Google Auth(firebase)",
+        name: "node",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "OCR (for image recognition)",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "React native",
         color: "cyan-text-gradient",
       },
     ],
-    image: amazon,
-    source_code_link: "https://github.com/BlackWatch021/amazon-clone",
-    website_link: "https://himanshu-amazon-clone.netlify.app/",
+    image: tictacktoe,
+    source_code_link: "https://github.com/kartik1767/tic-tac-toe",
+    website_link: "",
   },
 ];
 
