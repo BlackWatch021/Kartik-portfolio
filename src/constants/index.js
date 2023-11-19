@@ -13,7 +13,11 @@ import {
   mongodb,
   git,
   figma,
-  steadyApply,
+  verzeo,
+  zensar,
+  hope,
+  ablecold,
+  outplacement_heros,
   crypto_app,
   netflixClone,
   tictacktoe,
@@ -36,7 +40,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "SDE",
     icon: web,
   },
   {
@@ -44,7 +48,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Data Analyst",
     icon: backend,
   },
   {
@@ -100,7 +104,7 @@ const experiences = [
   {
     title: "Software Engineer",
     company_name: "Zensar Technologies(Pune)",
-    icon: steadyApply,
+    icon: zensar,
     iconBg: "#383E56",
     date: "August 2022 to Present",
     points: [
@@ -114,7 +118,7 @@ const experiences = [
   {
     title: "Storyteller || Social Media Manager",
     company_name: "Hope of People Everywhere ",
-    icon: steadyApply,
+    icon: hope,
     iconBg: "#383E56",
     date: "April 2021 to March 2022",
     points: [
@@ -126,7 +130,7 @@ const experiences = [
   {
     title: "SDE Intern",
     company_name: "Ablecold Logistics (Remote)",
-    icon: steadyApply,
+    icon: ablecold,
     date: "November 2021 to January 2022",
     points: [
       `Designed and developed a responsive website showcasing the company's projects and services using HTML5, CSS, JavaScript, Bootstrap, and jQuery.`,
@@ -137,7 +141,7 @@ const experiences = [
   {
     title: "HR Intern",
     company_name: "Outplacement Heroes",
-    icon: steadyApply,
+    icon: outplacement_heros,
     date: "June 2021 to July 2021",
     duration: "2 months",
     location: "Remote",
@@ -151,7 +155,7 @@ const experiences = [
   {
     title: "Web Development Intern",
     company_name: "Verzeo Edutech",
-    icon: steadyApply,
+    icon: verzeo,
     date: "June 2020 to July 2020",
     duration: "2 months",
     location: "Remote",
@@ -211,14 +215,6 @@ const projects = [
         name: "node",
         color: "yellow-text-gradient",
       },
-      {
-        name: "OCR (for image recognition)",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "React native",
-        color: "cyan-text-gradient",
-      },
     ],
     image: crypto_app,
     source_code_link: "https://github.com/kartik1767/crypto-app",
@@ -243,14 +239,6 @@ const projects = [
       {
         name: "node",
         color: "yellow-text-gradient",
-      },
-      {
-        name: "OCR (for image recognition)",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "React native",
-        color: "cyan-text-gradient",
       },
     ],
     image: netflixClone,
@@ -277,14 +265,6 @@ const projects = [
       {
         name: "node",
         color: "yellow-text-gradient",
-      },
-      {
-        name: "OCR (for image recognition)",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "React native",
-        color: "cyan-text-gradient",
       },
     ],
     image: tictacktoe,

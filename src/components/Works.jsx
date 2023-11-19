@@ -85,12 +85,12 @@ const Works = () => {
 
         <div className="w-full flex">
           <p className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
-            Each of the project that I have worked on comes with links to source
-            code and live demos, and are mentioned below. I'm not afraid to
-            tackle challenges, and I'm committed to refining my abilities in all
-            aspects. Right now I am working on a real world application to solve
-            a particular problem. I'm excited to collaborate on projects and
-            contribute my skills to create impactful solutions.
+            I've successfully undertaken diverse projects, a few of which are
+            highlighted below. Unafraid of challenges, I am steadfast in
+            refining my skills comprehensively. I am eager to engage in
+            collaborative projects, leveraging my expertise to craft impactful
+            solutions. For a more extensive showcase of my work, feel free to
+            explore my GitHub page.
           </p>
         </div>
         <div className="mt-20 flex flex-wrap gap-7">

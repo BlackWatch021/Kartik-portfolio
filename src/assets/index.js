@@ -21,7 +21,11 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import steadyApply from "./company/steadyApply.png";
+import verzeo from "./company/verzeo.png";
+import zensar from "./company/zensar.png";
+import hope from "./company/hope.png";
+import ablecold from "./company/ablecold.png";
+import outplacement_heros from "./company/outplacement_heros.png";
 
 import crypto_app from "./projects/crypto_app.png";
 import netflixClone from "./projects/netflix_clone.png";
@@ -54,7 +58,11 @@ export {
   tailwind,
   typescript,
   threejs,
-  steadyApply,
+  verzeo,
+  zensar,
+  hope,
+  ablecold,
+  outplacement_heros,
   netflixClone,
   tictacktoe,
   crypto_app,
