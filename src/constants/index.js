@@ -108,23 +108,12 @@ const experiences = [
     iconBg: "#383E56",
     date: "August 2022 to Present",
     points: [
+      `Currently deployed as a React Front End developer in Arroweye Solutions Inc (US based project).`,
       `Developed two website applications: Admin Portal and Interview Management Portal`,
       "Admin Portal: Implemented centralized authentication for streamlined access. Designed features for efficient application management and user administration.",
       `Interview Management Portal: Developed functionalities for administrators to schedule, manage interviews, and create interview panels.`,
       `Utilized Angular 14, .Net C#, and SSMS for both website applications.`,
       `Currently, working as a React Developer with Arroweye Solutions, a Zensar client based in the US.`,
-    ],
-  },
-  {
-    title: "Storyteller || Social Media Manager",
-    company_name: "Hope of People Everywhere ",
-    icon: hope,
-    iconBg: "#383E56",
-    date: "April 2021 to March 2022",
-    points: [
-      `Hope is an NGO that works for the education of children in the orphanage.`,
-      "Here I've  worked as a social media manager.",
-      ` My work was to design posts, editing videos.`,
     ],
   },
   {
@@ -139,6 +128,32 @@ const experiences = [
     ],
   },
   {
+    title: "Web Development Intern",
+    company_name: "Verzeo Edutech",
+    icon: verzeo,
+    date: "June 2020 to July 2020",
+    duration: "2 months",
+    location: "Remote",
+    points: [
+      `Main objective was to gain hands-on experience in web development and become proficient in key tech stacks such as HTML, CSS, Javascript, and NodeJs.`,
+      `Completed two projects: a digital clock using HTML, CSS, and Javascript, and a comprehensive interior design website using HTML, CSS, Javascript, and NodeJs.`,
+      `Significantly improved web development skills and gained practical experience in creating interactive and engaging web applications.`,
+    ],
+  },
+  {
+    title: "Storyteller || Social Media Manager",
+    company_name: "Hope of People Everywhere ",
+    icon: hope,
+    iconBg: "#383E56",
+    date: "April 2021 to March 2022",
+    points: [
+      `Hope is an NGO that works for the education of children in the orphanage.`,
+      "Here I've  worked as a social media manager.",
+      ` My work was to design posts, editing videos.`,
+    ],
+  },
+
+  {
     title: "HR Intern",
     company_name: "Outplacement Heroes",
     icon: outplacement_heros,
@@ -150,19 +165,6 @@ const experiences = [
       `Engaged in resume screening, reviewing resumes to identify qualified candidates.`,
       `Assisted job seekers by providing relevant job links based on criteria set by the senior intern.`,
       `Gained practical understanding of HR processes and the role of an HR professional.`,
-    ],
-  },
-  {
-    title: "Web Development Intern",
-    company_name: "Verzeo Edutech",
-    icon: verzeo,
-    date: "June 2020 to July 2020",
-    duration: "2 months",
-    location: "Remote",
-    points: [
-      `Main objective was to gain hands-on experience in web development and become proficient in key tech stacks such as HTML, CSS, Javascript, and NodeJs.`,
-      `Completed two projects: a digital clock using HTML, CSS, and Javascript, and a comprehensive interior design website using HTML, CSS, Javascript, and NodeJs.`,
-      `Significantly improved web development skills and gained practical experience in creating interactive and engaging web applications.`,
     ],
   },
 ];
