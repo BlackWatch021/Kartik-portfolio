@@ -31,9 +31,9 @@ const Contact = () => {
         template,
         {
           form_name: form.name,
-          to_name: "Himanshu",
+          to_name: "Kartik",
           from_email: form.email,
-          to_email: "himanshunegiweb@gmail.com",
+          to_email: "kartik07mane@gmail.com",
           message: form.message,
         },
         public_key
