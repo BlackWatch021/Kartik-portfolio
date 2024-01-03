@@ -81,7 +81,7 @@ const Navbar = () => {
                 </li>
               ))}
               <li className="text-secondary hover:text-white text-[14px] font-medium cursor-pointer">
-                <a href="/resume/Himanshu_resume.pdf" target="_blank">
+                <a href="/resume/Kartik_resume.pdf" target="_blank">
                   Resume
                 </a>
               </li>
